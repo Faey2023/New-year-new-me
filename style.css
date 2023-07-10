@@ -1,0 +1,85 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.starting{
+    display: flex;
+    justify-content: center;
+}
+
+.heder-description{
+    background-image: url(images/banner/banner2.png);
+    width: 1600px;
+    height: 809px;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 64px;
+}
+.starting-para{
+    color:#444343;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+/* middle secton starts from here  */
+.main-sec{
+    width: 1600px;
+height: 3223px;
+align-items: center;
+}
+
+.lady{
+    width: 451px
+height: 898px
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+    
+
+.middle-title{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.main-description, ul{
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* watch section  */
+.watch{
+    background-image: url(images/watch.png);
+    width: 1140px;
+height: 300px;
+border-radius: 8px;
+background: linear-gradient();
+}
+.watch-heading{
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+}
+.btn-second{
+    width: 160px;
+height: 64px;
+border-radius: 5px #FFF;
+color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+}
+
