@@ -2,15 +2,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 .starting{
-    display: flex;
-    justify-content: center;
-}
-
-.heder-description{
     background-image: url(images/banner/banner2.png);
     width: 1600px;
     height: 809px;
 }
+
 .btn-primary{
     border-radius: 5px;
     background: #F15B22;
@@ -25,20 +21,22 @@ font-weight: 400;
 line-height: 26px;
 }
 
-/* middle secton starts from here  */
+/* middle section starts from here  */
 .main-sec{
     width: 1600px;
 height: 3223px;
 align-items: center;
+padding: 2px;
+margin: 2px;
 }
 
-.lady{
-    width: 451px
-height: 898px
-}
+
+
 .middle{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
 }
     
 
@@ -58,6 +56,13 @@ ul{
     list-style-type: none;
 }
 
+/* my plan section  */
+.logos{
+    display: flex;
+    width: 1600px;
+    height: 3223px;
+    text-align: center;
+}
 
 /* watch section  */
 .watch{
@@ -83,3 +88,20 @@ font-size: 20px;
 font-weight: 600;
 }
 
+/* end  */
+.end{
+    background-color:#151414;
+}
+.foot{
+    display:flex;
+    justify-content: space-between;
+    width: 1600px;
+height: 577px;
+}
+#in{
+    border-radius: 8px;
+border: 1px solid #FFF;
+background:#151414;
+width: 325px;
+height: 64px;
+}
