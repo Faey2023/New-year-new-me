@@ -1,55 +1,74 @@
 *{
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
 }
-.starting{
+/* header starts  */
+.header{
     background-image: url(images/banner/banner2.png);
-    width: 1600px;
     height: 809px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+.banner{
+    display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 525px;
+  text-align: right;
+  margin-right: 160px;
+  padding-top: 200px;
+}
+.banner-title{
+    color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
 .btn-primary{
-    border-radius: 5px;
-    background: #F15B22;
-    width: 160px;
-    height: 64px;
+    margin: 0 auto;
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f15b22;
+  font-size: 20px;
+  color: white;
 }
-.starting-para{
-    color:#444343;
-text-align: right;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+.banner-description{
+    font-size: 16px;
+  font-weight: 400;
+  text-align: right;
 }
-
+section{
+    margin-top: 139px;
+}
 /* middle section starts from here  */
 .main-sec{
-    width: 1600px;
-height: 3223px;
-align-items: center;
-padding: 2px;
-margin: 2px;
-}
-
-
-
-.middle{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
+.middle{
+    display: flex;
+    flex-direction: column;
 }
     
-
 .middle-title{
     color: #151414;
 font-size: 40px;
 font-weight: 700;
+width: 288px;
+margin-bottom: 24px;
 }
-.main-description, ul{
+.main-description {
     color:#444343;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
+margin-bottom: 10px;
 }
 
 ul{
@@ -63,7 +82,34 @@ ul{
     height: 3223px;
     text-align: center;
 }
-
+.plan-title{
+    color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.plan-names{
+    font-size: 30px;
+  text-align: center;
+}
+.what-I-wanna-do{
+    color: #737373;
+    text-align: center;
+    font-size: 25px;
+}
+.logo-des {
+    width: 92px;
+    height: 92px;
+    display: block;
+    margin: 0 auto;
+}
+.plan-img{
+    width: 92px;
+    height: 92px;
+    display: block;
+    margin: 0 auto;
+}
 /* watch section  */
 .watch{
     background-image: url(images/watch.png);
@@ -105,3 +151,4 @@ background:#151414;
 width: 325px;
 height: 64px;
 }
+
